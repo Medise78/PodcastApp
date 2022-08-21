@@ -34,9 +34,9 @@ class MediaPlayerNotificationManager(
                .setMediaDescriptionAdapter(DescriptionAdapter(mediaController))
                .setNotificationListener(notificationListener)
                .setSmallIconResourceId(R.drawable.ic_microphone)
-               .setNextActionIconResourceId(R.drawable.ic_microphone)
-               .setStopActionIconResourceId(R.drawable.ic_microphone)
-               .setPreviousActionIconResourceId(R.drawable.ic_microphone)
+               .setNextActionIconResourceId(com.google.android.exoplayer2.R.drawable.exo_icon_next)
+               .setStopActionIconResourceId(com.google.android.exoplayer2.R.drawable.exo_icon_stop)
+               .setPreviousActionIconResourceId(com.google.android.exoplayer2.ui.R.drawable.exo_icon_previous)
                .build()
      }
      
